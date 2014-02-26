@@ -1,0 +1,36 @@
+
+    <resources>
+        <color name="negro">#000000</color>
+        <color name="blanco">#FFFFFF</color>
+        <color name="azulclaro">#92D5FC</color>
+        <color name="grismedio">#B4B4B4</color>
+        <color name="grisclaro">#F2F2F2</color>
+        <color name="grisoscuro">#535352</color>
+        
+        <color name="azul_tit_estasen">#42678E</color>
+        <color name="azul_tit_selec">#385874</color>
+        <color name="azul_tit_origdest">#0080B2</color>
+        <color name="naranja_focus">#F5821F</color>
+        
+        
+        <color name="naranjaFuerte">#ed391b</color>
+        <color name="naranjaFuerteDegradado1">#ce1a00</color>
+        <color name="naranjaFuertePress">#fd492b</color>
+        <color name="naranjaFuertePressDegradado1">#de2a10</color>
+        <color name="grisWeb">#31393C</color>
+        
+        
+        <color name="verde">#008000</color>
+        <color name="oliva">#808000</color>
+        <color name="marron">#800000</color>
+        <color name="agua">#00FFFF</color>
+        <color name="lima">#00FF00</color>
+        <color name="azul">#3091E0</color>
+        <color name="azulmarino">#270CF0</color>
+        <color name="sahara">#F2F5A9</color>
+        <color name="aguatransp">#E0ECF8</color>
+        <color name="verdeBoton">#CDDA75</color>
+    	<color name="verdeResp">#C6D44E</color>
+    	<color name="naranja">#FF8000</color>
+        
+    </resources>

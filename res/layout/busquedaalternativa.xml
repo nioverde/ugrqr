@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/blanco">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/margentitulo"
+        android:layout_marginLeft="@dimen/margentitulo"
+        android:layout_marginRight="@dimen/margentitulo"
+        android:layout_marginTop="@dimen/margentitulo"
+        style="@style/titulo_principal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textColor="@color/blanco"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoestasaqui" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:background="@color/blanco"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textSize="@dimen/textoestasaqui" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/alturaboton"
+        android:layout_marginBottom="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/miboton"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textoescaneoqr"
+        android:text="@string/iraruta" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/alturaboton"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editText1"
+        android:drawableStart="@drawable/busca" />
+
+</RelativeLayout>

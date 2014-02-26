@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:text="@string/perfil"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textoestasaquihorizontal"
+        style="@style/titulo_principal"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/titulo_principal_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="4dp"
+                android:text="@string/selecciona"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textorutahorizontal"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/espanol"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingles"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/italiano"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alarabiya"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aleman"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/titulo_principal_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="4dp"
+                android:text="@string/refuerzo"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textorutahorizontal"
+                android:textStyle="bold" />
+            
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audioguia" 
+                    android:textSize="@dimen/textoescaneoqrhorizontal"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audioytexto" 
+                    android:textSize="@dimen/textoescaneoqrhorizontal"/>
+                
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/videoguia" 
+                    android:textSize="@dimen/textoescaneoqrhorizontal"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ninguna"
+                    android:textSize="@dimen/textoescaneoqrhorizontal" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="@string/guardarperfil"
+                android:textColor="@color/blanco"
+                android:textStyle="bold"
+                android:textSize="20sp" 
+                android:background="@drawable/miboton2"
+        		android:layout_marginLeft="3dp"
+        		android:layout_marginRight="3dp"
+        		android:layout_marginBottom="4dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

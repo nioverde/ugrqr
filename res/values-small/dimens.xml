@@ -1,0 +1,14 @@
+<resources>
+
+    
+    
+    <dimen name="tituloprincipal">40dp</dimen>
+    <dimen name="tituloprincipalhorizontal">25dp</dimen>
+    
+    <dimen name="alturaboton">40dp</dimen>
+    <dimen name="alturabotonhorizontal">25dp</dimen>
+    
+    
+    
+    
+</resources>

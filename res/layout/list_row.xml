@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_selector"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rute"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:background="@color/blanco"
+        android:textSize="@dimen/lugarestam"
+        android:layout_alignRight="@+id/rute" />
+
+    <TextView
+        android:id="@+id/rute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/qr"
+        android:background="@color/grisclaro"
+        android:layout_below="@+id/qr" />
+
+    <TextView
+        android:id="@+id/qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/grisclaro"
+        android:layout_below="@+id/place" />
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+     <!-- 
+    	Tamaño de la imagen del escudo de la UGR en los archivos:
+    		activity_selecciona_canal.xml (Portrait y landscape)
+     -->
+    <dimen name="escudougr">600dp</dimen>
+    <dimen name="escudomargenizquierdo">225dp</dimen>
+    <dimen name="escudougrhorizontal">450dp</dimen>
+    <dimen name="escudougrGrande">400dp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para el título en los archivos:
+    		activity_selecciona_canal.xml (Portrait y landscape)
+     -->
+    <dimen name="tituloprincipal">200sp</dimen>
+    <dimen name="tituloprincipalhorizontal">120sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los textview de título en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		buscadorsinqr.xml 		(Portrait)
+    		creaperfil.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoestasaqui">80sp</dimen>
+    <dimen name="textoestasaquihorizontal">55sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los botones en los archivos:
+    		escaneo.xml 		(Portrait y landscape)
+    		ddetallada.xml 		(Portrait y landscape)
+    		ruta.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoescaneoqr">50sp</dimen>
+    <dimen name="textoescaneoqrhorizontal">50sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los textview de guiado en los archivos:
+    		escaneo.xml 		(Portrait y landscape)
+    		ddetallada.xml 		(Portrait y landscape)
+     -->
+    <dimen name="textoresyddeta">45sp</dimen>
+    <dimen name="textoresyddetahorizontal">45sp</dimen>
+    <dimen name="textoresyddetatitulos">35sp</dimen>
+    <dimen name="textoresyddetatituloshorizontal">33sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los textview de guiado en los archivos:
+    		ruta.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoruta">55sp</dimen>
+    <dimen name="textorutahorizontal">55sp</dimen>
+	
+    <!-- 
+    	Tamaño de los botones en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		selecciona_canal.xml	(Portrait y landscape)
+    		busquedaalternativa		(Portrait)
+    		buscadorsinqr.xml 		(Portrait)
+     -->
+    <dimen name="alturaboton">200dp</dimen>
+    <dimen name="alturabotonhorizontal">160dp</dimen>
+    
+    <dimen name="anchuraboton">200dp</dimen>
+    <dimen name="anchurabotonhorizontal">280dp</dimen>
+    
+    <!-- 
+    	Tamaño de los vídeos en los archivos:
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+     -->
+    <dimen name="videoancho">1152dp</dimen>
+    <dimen name="videoalto">686dp</dimen>
+    <dimen name="videoanchovertical">640dp</dimen>
+    <dimen name="videoaltovertical">360dp</dimen>
+    
+    <!-- 
+    	Tamaño de los márgenes de títulos en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		selecciona_canal.xml	(Portrait y landscape)
+    		busquedaalternativa		(Portrait)
+    		buscadorsinqr.xml 		(Portrait)
+     -->
+     <dimen name="margentitulo">15dp</dimen>
+     
+    
+    <dimen name="lugarestam">50dp</dimen>
+    
+    
+</resources>

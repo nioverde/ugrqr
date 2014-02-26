@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/margentitulo"
+        android:layout_marginLeft="@dimen/margentitulo"
+        android:layout_marginRight="@dimen/margentitulo"
+        android:layout_marginTop="@dimen/margentitulo"
+        style="@style/titulo_principal"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textoestasaqui"
+        android:text="@string/descripcion" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:background="@color/blanco"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/anchuraboton"
+            android:layout_height="@dimen/alturaboton"
+            android:text="@string/ira"
+            android:background="@drawable/miboton"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:layout_marginBottom="4dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/anchuraboton"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blanco"
+            android:layout_marginBottom="4dp"
+            android:text="@string/consulta"
+            android:textSize="@dimen/textoescaneoqr"
+            android:background="@drawable/miboton" />
+
+    </LinearLayout>
+
+</LinearLayout>

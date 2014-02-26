@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.10"
+            android:background="@drawable/miboton"
+            android:drawableStart="@drawable/dback"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/miboton"
+            android:text="@string/play"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/miboton2"
+            android:text="@string/fin"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.10"
+            android:background="@drawable/miboton"
+            android:drawableEnd="@drawable/dforward"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/titulo_principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margentitulo"
+        android:layout_marginLeft="@dimen/margentitulo"
+        android:layout_marginRight="@dimen/margentitulo"
+        android:layout_marginTop="@dimen/margentitulo"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textoruta" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal|center_vertical" 
+        android:textSize="@dimen/textoruta"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        style="@style/titulo_principal"
+        android:textColor="@color/blanco"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center_horizontal" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:textSize="@dimen/textoresyddeta"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

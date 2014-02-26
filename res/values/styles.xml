@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="titulo_principal">
+        <item name="android:background">@drawable/tituloprincipal</item>
+    </style>
+    
+    <style name="titulo_principal_1">
+        <item name="android:background">@drawable/tituloprincipal_1</item>
+    </style>
+    
+    <style name="List">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:background">@color/blanco</item>
+	    <item name="android:dividerHeight">1dp</item>
+	    <item name="android:divider">@color/grisoscuro</item>
+	    <item name="android:cacheColorHint">#FFFFFF</item>
+	    
+	</style>
+	
+    
+    <style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
+	    <item name="android:textAppearance">@style/CustomTabWidgetText</item>
+	</style>
+	<style name="CustomTabWidgetText" 
+	    parent="@android:style/TextAppearance.Widget.TabWidget">
+	    <item name="android:textSize">@dimen/textoescaneoqr</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">@color/blanco</item>
+	    <item name="android:padding">3dip</item>
+	</style>
+	
+	
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

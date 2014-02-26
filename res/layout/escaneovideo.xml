@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/azul_tit_estasen"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textSize="@dimen/textoestasaqui"
+        android:textColor="@color/blanco"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/alturaboton"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/miboton"
+                android:text="@string/iniciar"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textoescaneoqr" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/alturaboton"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/miboton"
+                android:text="@string/ira"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textoescaneoqr" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/alturaboton"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/miboton"
+                android:text="@string/captura"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textoescaneoqr" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/alturaboton"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/miboton"
+                android:text="@string/cambiaconc"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/textoescaneoqr" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="@dimen/videoanchovertical"
+            android:layout_height="@dimen/videoaltovertical" />
+    </LinearLayout>
+
+</RelativeLayout>

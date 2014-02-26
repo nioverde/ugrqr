@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Default screen margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- 
+    	Tamaño de la imagen del escudo de la UGR en los archivos:
+    		activity_selecciona_canal.xml (Portrait y landscape)
+     -->
+    <dimen name="escudougr">250dp</dimen>
+    <dimen name="escudomargenizquierdo">104dp</dimen>
+    <dimen name="escudougrhorizontal">220dp</dimen>
+    <dimen name="escudougrGrande">400dp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para el título en los archivos:
+    		activity_selecciona_canal.xml (Portrait y landscape)
+     -->
+    <dimen name="tituloprincipal">70sp</dimen>
+    <dimen name="tituloprincipalhorizontal">75sp</dimen>
+    
+	<!-- 
+    	Tamaño de letras para los textview de título en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		buscadorsinqr.xml 		(Portrait)
+    		creaperfil.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoestasaqui">30sp</dimen>
+    <dimen name="textoestasaquihorizontal">28sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los botones en los archivos:
+    		escaneo.xml 		(Portrait y landscape)
+    		ddetallada.xml 		(Portrait y landscape)
+    		ruta.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoescaneoqr">20sp</dimen>
+    <dimen name="textoescaneoqrhorizontal">16sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los textview de guiado en los archivos:
+    		escaneo.xml 		(Portrait y landscape)
+    		ddetallada.xml 		(Portrait y landscape)
+     -->
+    <dimen name="textoresyddeta">25sp</dimen>
+    <dimen name="textoresyddetahorizontal">23sp</dimen>
+    
+    <!-- 
+    	Tamaño de letras para los textview de guiado en los archivos:
+    		ruta.xml 			(Portrait y landscape)
+     -->
+    <dimen name="textoruta">23sp</dimen>
+    <dimen name="textorutahorizontal">20sp</dimen>
+
+    <!-- 
+    	Tamaño de los botones en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		selecciona_canal.xml	(Portrait y landscape)
+    		busquedaalternativa		(Portrait)
+    		buscadorsinqr.xml 		(Portrait)
+     -->
+    <dimen name="alturaboton">65dp</dimen>
+    <dimen name="alturabotonhorizontal">20dp</dimen>
+    
+    <dimen name="anchuraboton">100dp</dimen>
+    <dimen name="anchurabotonhorizontal">100dp</dimen>
+    
+    <!-- 
+    	Tamaño de los vídeos en los archivos:
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+     -->
+    <dimen name="videoancho">448dp</dimen>
+    <dimen name="videoalto">252dp</dimen>
+    <dimen name="videoanchovertical">320dp</dimen>
+    <dimen name="videoaltovertical">160dp</dimen>
+    
+    <!-- 
+    	Tamaño de los márgenes de títulos en los archivos:
+    		escaneo.xml 			(Portrait y landscape)
+    		escaneovideo.xml 		(Portrait y landscape)
+    		ddetallada.xml 			(Portrait y landscape)
+    		ddetalladavideo.xml 	(Portrait y landscape)
+    		ruta.xml 				(Portrait y landscape)
+    		rutavideo.xml 			(Portrait y landscape)
+    		creaperfil.xml 			(Portrait y landscape)
+    		lugares.xml 			(Portrait y landscape)
+    		selecciona_canal.xml	(Portrait y landscape)
+    		busquedaalternativa		(Portrait)
+    		buscadorsinqr.xml 		(Portrait)
+     -->
+     <dimen name="margentitulo">3dp</dimen>
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="lugarestam">25dp</dimen>
+    
+    
+</resources>

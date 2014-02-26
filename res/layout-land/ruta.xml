@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco" >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="7dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:background="@color/blanco"
+        android:gravity="center_horizontal|center_vertical"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textSize="@dimen/textorutahorizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/titulo_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textorutahorizontal" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/miboton"
+            android:drawableStart="@drawable/dback"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/miboton2"
+            android:text="@string/fin"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturaboton"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/miboton"
+            android:drawableEnd="@drawable/dforward"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqr"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView5"
+        android:background="@color/azul_tit_origdest"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textoestasaquihorizontal" />
+
+</RelativeLayout>
