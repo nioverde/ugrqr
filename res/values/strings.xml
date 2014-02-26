@@ -90,16 +90,6 @@
     <string name="reforzarconstraste">Altos Constrastes</string>
     
 	    
-    <!--  Zona privada -->
-    <string name="urlBsinQR2">http://asistic.ugr.es/ugrqr/busquedaConceptoSinQR.php?</string>
-	<string name="urlBuscadorSinQR">http://asistic.ugr.es/ugrqr/busquedaSinQR.php?</string>
-	<string name="urlBusquedaAlternativa">http://asistic.ugr.es/ugrqr/busquedaAlternativa.php?</string>
-	<string name="urlBusquedaIntroduce">http://asistic.ugr.es/ugrqr/busquedaSinQR.php?</string>
-	<string name="urlBusquedaIntroduceOrig">http://asistic.ugr.es/ugrqr/busquedaIntroduce.php?</string>
-	<string name="urlConsultaContenido">http://asistic.ugr.es/ugrqr/consultaContenido.php?</string>
-	<string name="urlConsultaLugares">http://asistic.ugr.es/ugrqr/consultaLugares.php?</string>
-	<string name="urlConsultaRutas">http://asistic.ugr.es/ugrqr/consultaRutas.php?</string>
-	
 	
 	
 	
