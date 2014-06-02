@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UGRQR</string>
+    <string name="ugr">UGR</string>
+    <string name="qr">QR</string>
+    <string name="action_settings">Ayuda</string>
+    <string name="menuayuda">Menú de ayuda</string>
+    
+    <!-- Strings para tipos de CANALES  -->
+    <string name="esptxt">ESP_TXT</string>
+    <string name="ingtxt">ING_TXT</string>
+    <string name="videolse">VIDEO_LSE</string>
+    <string name="audesp">AUDIO_ESP</string>
+    <string name="auding">AUDIO_ING</string>
+    <string name="audioytxt">AUDIOTXT</string>
+    
+    
+    <string name="captura">Captura QR</string>
+    <string name="inicio">Inicio</string>
+    <string name="busquedageneral1">Búsqueda general</string>
+    <string name="buscacualquier">Busca cualquier lugar</string>
+    <string name="introducelugar">Introduce el lugar que desees</string>
+    <string name="introducelugar2">Introduce un lugar</string>
+    <string name="buscaenelmismo">Selecciona un lugar de tu centro</string>
+    <string name="selectcentro">Selecciona un centro</string>
+    <string name="selectlugar">Selecciona un lugar</string>
+    
+    
+    <string name="selecciona">Seleccione un idioma: </string>
+    <string name="selecusuario">Selecciona tipo de usuario: </string>
+    <string name="perfil">Define tu perfil</string>
+    
+    <string name="espacio">" "</string>
+    
+    <string name="bienvenida">Bienvenido al sistema de guiado de la Universidad de Granada</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="textobienvenida">Éste es el sistema de guiado de la Universidad de Granada comienza a usarlo mediante un código QR o buscando directamente el lugar al que desees ir.</string>
+    <string name="resumen">Resumen</string>
+    <string name="descripcion">Descripción</string>
+    <string name="canal">Canal</string>
+    <string name="masinfo">Descripcion</string>
+    <string name="ira">Rutas</string>
+    <string name="lugaresrec">¿A dónde quieres ir?</string>
+    
+    <string name="pasoapaso">Paso a paso</string>
+    <string name="npaso">Paso 1/n</string>
+    <string name="fin">Fin</string>
+    <string name="origen">Lugar Origen</string>
+    <string name="addqr">Add QR</string>
+    
+    <string name="otrovideo">Siguiente</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="playresumen">Play Resumen</string>
+    <string name="playdescripcion">Play Descripcion</string>
+    
+    <string name="consulta">BD</string>
+    <string name="sigpaso">Siguiente\n Paso</string>
+    <string name="leetxt">Lee txt</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="cambiaconc">Busca lugar</string>
+    <string name="buscaPorNombre">Busca personal UGR</string>
+    <string name="lugar">Lugar</string>
+    <string name="estasen">Estás en:</string>
+    <string name="donde">¿Dónde quieres ir?</string>
+    <string name="iraruta">Realizar ruta sugerida</string>
+    <string name="nedificios">Número de edificios: </string>
+    <string name="configuracion">Configuración</string>
+    <string name="ajustes">Ajustes</string>
+    
+    
+    <!-- Strings para el menu CONFIGURA PERFIL  -->
+    
+    <string name="espanol">Español</string>
+    <string name="ingles">Inglés</string>
+    <string name="italiano">Italiano</string>
+    <string name="aleman">Alemán</string>
+    <string name="alarabiya">Al arabiya</string>
+    
+    <string name="refuerzo">Refuerzo multimedia</string>
+    <string name="audioguia">Audioguía</string>
+    <string name="audioytexto">Audioguía y Texto</string>
+    <string name="videoguia">Videoguía: Lenguaje de Signos Español</string>
+    <string name="ninguna">Ninguna</string>
+    <string name="tipousuario">Tipo de usuario</string>
+    <string name="academico">Académico</string>
+    <string name="turista">Turista</string>
+    <string name="activar">Activar</string>
+    <string name="guardarperfil">Guardar perfil</string>
+    <string name="soloascensor">Incluir rutas sin escaleras</string>
+    <string name="reforzarconstraste">Altos Constrastes</string>
+    
+	    
+    <!--  Zona privada -->
+    <string name="urlBsinQR2">http://asistic.ugr.es/ugrqr/busquedaConceptoSinQR.php?</string>
+	<string name="urlBuscadorSinQR">http://asistic.ugr.es/ugrqr/busquedaSinQR.php?</string>
+	<string name="urlBusquedaAlternativa">http://asistic.ugr.es/ugrqr/busquedaAlternativa.php?</string>
+	<string name="urlBusquedaIntroduce">http://asistic.ugr.es/ugrqr/busquedaSinQR.php?</string>
+	<string name="urlBusquedaIntroduceOrig">http://asistic.ugr.es/ugrqr/busquedaIntroduce.php?</string>
+	<string name="urlConsultaContenido">http://asistic.ugr.es/ugrqr/consultaContenido.php?</string>
+	<string name="urlConsultaLugares">http://asistic.ugr.es/ugrqr/consultaLugares.php?</string>
+	<string name="urlConsultaRutas">http://asistic.ugr.es/ugrqr/consultaRutas.php?</string>
+	
+	
+	<string name="tabla_centros">Centros</string>
+	<string name="tabla_etsiitcontenidos">EtsiitContenidos</string>
+	<string name="tabla_etsiitlugares">EtsiitLugares</string>
+	<string name="tabla_etsiitrutas">EtsiitRutas</string>
+	<string name="tabla_etsiitpasos">EtsiitPasos</string>
+	
+	<string name="tabla_fticontenidos">FtiContenidos</string>
+	<string name="tabla_ftilugares">FtiLugares</string>
+	<string name="tabla_ftipasos">FtiPasos</string>
+	<string name="tabla_ftirutas">FtiRutas</string>
+	
+	<string name="columna_codqr">CodQr</string>
+	<string name="columna_codqrorigen">CodQrOrigen</string>
+	<string name="columna_codqrdestino">CodQrDestino</string>
+	<string name="columna_canal">Canal</string>
+	<string name="columna_canalorigen">CanalOrigen</string>
+	<string name="columna_canaldestino">CanalDestino</string>
+	<string name="columna_nombre">Nombre</string>
+	<string name="columna_nombrecompleto">NombreCompleto</string>
+	<string name="columna_nedificios">NEdificios</string>
+	
+	<string name="columna_padre">Padre</string>
+	<string name="columna_nivel">Nivel</string>
+	<string name="columna_existecontenido">ExisteContenido</string>
+	
+	<string name="columna_concepto">Concepto</string>
+	<string name="columna_urlresumen">UrlResumen</string>
+	<string name="columna_urlddetallada">UrlDDetallada</string>
+	<string name="columna_urlimagen">UrlImagen</string>
+	
+	<string name="columna_conceptoorigen">ConceptoOrigen</string>
+	<string name="columna_urlruta">Ruta</string>
+	<string name="columna_paso">Paso</string>
+	<string name="columna_url">Url</string>
+	<string name="columna_npasos">NPasos</string>
+	
+	
+	    
+    
+
+</resources>

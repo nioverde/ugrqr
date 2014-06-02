@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<selector>
+    
+    	<item  android:drawable="@drawable/botonindoor_released"/>
+    	<item android:drawable="@drawable/botonindoor_pressed"
+    	    android:state_pressed="true"/>
+    	<item android:drawable="@drawable/botonindoor_pressed"
+    	    android:state_selected="true"/>
+	</selector>
+</resources>

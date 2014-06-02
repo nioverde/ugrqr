@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/azul_tit_estasen"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textSize="@dimen/textoestasaqui"
+        android:textColor="@color/blanco" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="@dimen/anchurabotonhorizontal"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturabotonhorizontal"
+            android:layout_weight="0.25"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/miboton2"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqrhorizontal"
+            android:textStyle="bold"
+            android:text="@string/iniciar" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturabotonhorizontal"
+            android:layout_weight="0.25"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/miboton2"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqrhorizontal"
+            android:textStyle="bold"
+            android:text="@string/cambiaconc" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturabotonhorizontal"
+            android:layout_weight="0.25"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/miboton2"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqrhorizontal"
+            android:textStyle="bold"
+            android:text="@string/captura" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/anchurabotonhorizontal"
+            android:layout_height="@dimen/alturabotonhorizontal"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.25"
+            android:background="@drawable/miboton2"
+            android:text="@string/ira"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/textoescaneoqrhorizontal"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/videoancho"
+        android:layout_height="@dimen/videoalto"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="@dimen/videoancho"
+            android:layout_height="@dimen/videoalto"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
